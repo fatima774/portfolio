@@ -59,11 +59,15 @@ nav {
 .avatar-ring {
   width: 130px; height: 130px; border-radius: 50%;
   border: 3px solid var(--mauve-light);
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 8px 30px rgba(155,127,166,0.25);
+  object-fit: cover;
+}
+
+.avatar-ring:is(div) {
   background: linear-gradient(135deg, var(--mauve), var(--rose));
   display: flex; align-items: center; justify-content: center;
-  margin: 0 auto 1.5rem;
   font-size: 3.5rem;
-  box-shadow: 0 8px 30px rgba(155,127,166,0.25);
 }
 .hero h1 {
   font-family: 'Playfair Display', serif;
@@ -648,6 +652,8 @@ a.project-card h3 {
 }
 .contact-item div p { font-size: 0.82rem; color: var(--grey); margin: 0; }
 .contact-item div strong { font-size: 0.92rem; color: var(--dark); }
+.contact-item a { color: var(--mauve); text-decoration: none; font-weight: 600; transition: color .2s; }
+.contact-item a:hover { color: var(--dark); }
 
 .contact-form {
   background: #fff; border-radius: 16px; padding: 2rem; border: 1px solid var(--rose);
@@ -685,6 +691,14 @@ footer {
   background: var(--dark); color: #a89bb0; font-size: 0.85rem;
 }
 footer span { color: var(--gold); }
+.footer-content {
+  display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap;
+}
+.footer-github {
+  color: var(--gold); text-decoration: none; font-weight: 600;
+  transition: color .2s;
+}
+.footer-github:hover { color: var(--mauve-light); }
 
 /* ===========================
    RESPONSIVE
