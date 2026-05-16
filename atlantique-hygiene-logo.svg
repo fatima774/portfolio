@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Atlantique Hygiene</title>
+  <desc id="desc">Logo rond avec les initiales AH et le nom Atlantique Hygiene.</desc>
+  <defs>
+    <radialGradient id="logoGlow" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="58%" stop-color="#d9eadf"/>
+      <stop offset="100%" stop-color="#83d2ee"/>
+    </radialGradient>
+    <linearGradient id="ahBlue" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#005b99"/>
+      <stop offset="100%" stop-color="#0072b8"/>
+    </linearGradient>
+    <linearGradient id="ahGreen" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c8f4b"/>
+      <stop offset="100%" stop-color="#4aa365"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="520" height="520" fill="#f7f8f7"/>
+  <circle cx="260" cy="200" r="186" fill="url(#logoGlow)"/>
+
+  <text x="128" y="260" fill="url(#ahBlue)" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="900">A</text>
+  <text x="254" y="260" fill="url(#ahGreen)" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="900">H</text>
+
+  <text x="26" y="448" fill="#0063a3" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="900" letter-spacing="-1">ATLANTIQUE</text>
+  <text x="304" y="448" fill="#2e9254" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="900" letter-spacing="-1">HYGIENE</text>
+
+  <line x1="52" y1="490" x2="92" y2="490" stroke="#0063a3" stroke-width="4" stroke-linecap="round"/>
+  <text x="260" y="502" text-anchor="middle" fill="#0063a3" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800">PROPRETE &amp; HYGIENE</text>
+  <line x1="428" y1="490" x2="468" y2="490" stroke="#0063a3" stroke-width="4" stroke-linecap="round"/>
+</svg>

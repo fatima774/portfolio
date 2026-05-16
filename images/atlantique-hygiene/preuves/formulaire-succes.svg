@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Message de succes du formulaire</title>
+  <desc id="desc">Page de confirmation apres l'envoi du formulaire.</desc>
+  <rect width="900" height="560" fill="#ffffff"/>
+  <rect x="110" y="90" width="680" height="250" rx="10" fill="#f5f5f7"/>
+  <text x="170" y="170" fill="#001d33" font-family="Arial, sans-serif" font-size="44" font-weight="800">Merci!</text>
+  <text x="170" y="246" fill="#2f4058" font-family="Arial, sans-serif" font-size="25">Le formulaire a ete envoye avec succes.</text>
+  <text x="170" y="306" fill="#f01828" font-family="Arial, sans-serif" font-size="24" font-weight="800">Retourner au site originel</text>
+</svg>

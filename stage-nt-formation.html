@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stage GESTAGE — NT Formation — Fatima Bougrin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Fatima B.</div>
+    <ul class="nav-links">
+      <li><a href="index.html#about">À propos</a></li>
+      <li><a href="index.html#skills">Compétences</a></li>
+      <li><a href="index.html#projects">Projets</a></li>
+      <li><a href="index.html#stages">Stages</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="stage-hero">
+    <div class="container">
+      <a class="back-link" href="index.html#stages">← Retour aux stages</a>
+      <span class="badge gold">Stage de 2ème année</span>
+      <h1>GESTAGE <span>Application Laravel</span></h1>
+      <p class="tagline">Stage réalisé du 24 février au 4 avril 2026 en télétravail avec NT Formation, autour de la reconception de GESTAGE, l'application de gestion des stages du BTS SIO.</p>
+      <div class="hero-btns">
+        <a href="#details" class="btn btn-primary">Voir les détails</a>
+        <a href="https://github.com/ornech/gestage2" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Dépôt GESTAGE</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="details">
+      <div class="container">
+        <h2 class="section-title">Présentation du <span>stage</span></h2>
+        <div class="divider"></div>
+        <p class="section-sub">Du 24 février au 4 avril 2026 — NT Formation — Stage réalisé en télétravail</p>
+
+        <div class="detail-grid">
+          <div class="info-card">
+            <h3>🏢 Contexte</h3>
+            <p>Pour mon stage de deuxième année, j'ai travaillé sur la reconception de l'application GESTAGE, un outil utilisé pour gérer les stages des étudiants du BTS SIO du Lycée Merleau Ponty.</p>
+          </div>
+
+          <div class="info-card">
+            <h3>🎯 Objectif</h3>
+            <p>L'objectif était de reconstruire l'application proprement avec Laravel, en appliquant les bonnes pratiques du développement web pour améliorer la stabilité, la sécurité, la maintenabilité et l'évolution du projet.</p>
+          </div>
+
+          <div class="info-card">
+            <h3>⚠️ Problèmes identifiés</h3>
+            <ul class="stage-mini-list">
+              <li>Bugs fréquents</li>
+              <li>Base de données instable</li>
+              <li>Code difficile à maintenir</li>
+              <li>Limites pour ajouter de nouvelles fonctionnalités</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3>🔗 Projet</h3>
+            <p>Le projet travaillé pendant le stage est GESTAGE, une application Laravel de gestion des stages. Le dépôt GitHub du projet est disponible dans les liens utiles de cette page.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-bg">
+      <div class="container">
+        <h2 class="section-title">Ce que <span>j'ai fait</span></h2>
+        <div class="divider"></div>
+        <p class="section-sub">Missions réalisées pendant le stage</p>
+
+        <div class="stage-work-list">
+          <div class="stage-work-item">
+            <h3>Installation et environnement</h3>
+            <p>J'ai installé Laravel, configuré le fichier .env, connecté la base de données et lancé le serveur local.</p>
+            <p>J'ai aussi mis en place un workflow Git propre : branches par issue, commits réguliers, pull requests et revue de code.</p>
+            <button class="photo-gallery-trigger proof-trigger" type="button" onclick="document.getElementById('preuves-gestage-git').showModal()">
+              Voir les preuves GitHub et GitKraken
+            </button>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+            <span class="competence-badge">Organiser son développement professionnel</span>
+            <span class="competence-badge">Travailler en mode projet</span>
+          </div>
+
+          <div class="stage-work-item">
+            <h3>Analyse du code existant et corrections</h3>
+            <p>J'ai analysé la revue de code fournie par mon tuteur et étudié les incohérences entre les champs role et statut, les divergences entre migrations et modèles, ainsi que la structure du module d'authentification.</p>
+            <ul class="stage-mini-list">
+              <li>Mot de passe non hashé</li>
+              <li>Absence de validation des données</li>
+              <li>Risques d'exposition du mot de passe</li>
+              <li>Incohérences dans les formulaires</li>
+              <li>Absence de redirection après connexion</li>
+            </ul>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+            <span class="competence-badge">Répondre aux incidents et aux demandes d'évolution</span>
+          </div>
+
+          <div class="stage-work-item">
+            <h3>Authentification et rôles</h3>
+            <p>J'ai corrigé les champs utilisés dans les formulaires, les redirections selon le rôle, le fonctionnement du logout et nettoyé le code pour supprimer les éléments inutiles.</p>
+            <p>J'ai également préparé l'intégration d'un système de rôles et permissions RBAC en étudiant Spatie HasRoles.</p>
+            <span class="competence-badge">Répondre aux incidents et aux demandes d'évolution</span>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+            <span class="competence-badge">Travailler en mode projet</span>
+          </div>
+
+          <div class="stage-work-item">
+            <h3>Sécurisation de l'application</h3>
+            <p>J'ai renforcé la sécurité du projet avec des validations backend, la vérification du hashage des mots de passe, la correction des risques d'exposition de données et le nettoyage des vues.</p>
+            <span class="competence-badge">Répondre aux incidents et aux demandes d'évolution</span>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+          </div>
+
+          <div class="stage-work-item">
+            <h3>Intégration de l'API Sirene</h3>
+            <p>J'ai intégré l'API Sirene de l'INSEE pour permettre la recherche d'entreprises via leur SIRET.</p>
+            <ul class="stage-mini-list">
+              <li>Tests TDD avec Http::fake()</li>
+              <li>Création du service SireneClient</li>
+              <li>Extraction et formatage des données</li>
+              <li>Externalisation de la clé API</li>
+              <li>Configuration dans config/services.php</li>
+            </ul>
+            <span class="competence-badge">Travailler en mode projet</span>
+            <span class="competence-badge">Répondre aux incidents et aux demandes d'évolution</span>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+          </div>
+
+          <div class="stage-work-item">
+            <h3>Module Entreprises</h3>
+            <p>J'ai travaillé sur la logique métier liée aux entreprises et commencé l'interface de l'annuaire.</p>
+            <ul class="stage-mini-list">
+              <li>Création manuelle d'une entreprise avec le statut pending</li>
+              <li>Import automatique via SIRET avec updateOrCreate()</li>
+              <li>Mise à jour si l'entreprise existe déjà</li>
+              <li>Tests pour valider chaque scénario</li>
+              <li>Compteurs dynamiques, recherche simple et structure de base</li>
+            </ul>
+            <span class="competence-badge">Mettre à disposition un service informatique</span>
+            <span class="competence-badge">Travailler en mode projet</span>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+          </div>
+
+          <div class="stage-work-item">
+            <h3>Formulaire de création de stage</h3>
+            <p>J'ai amélioré l'expérience utilisateur du formulaire de stage avec une logique dynamique et des contrôles sur les dates.</p>
+            <ul class="stage-mini-list">
+              <li>Filtrage dynamique des employés selon l'entreprise sélectionnée</li>
+              <li>Route JSON dédiée</li>
+              <li>Script JavaScript pour mettre à jour les maîtres de stage</li>
+              <li>Gestion des cas : aucun employé, un seul employé, plusieurs employés</li>
+              <li>Limitation automatique de la durée du stage à 6 semaines</li>
+              <li>Scripts pour empêcher les dates invalides</li>
+              <li>Nettoyage du StageController</li>
+            </ul>
+            <span class="competence-badge">Mettre à disposition un service informatique</span>
+            <span class="competence-badge">Travailler en mode projet</span>
+            <span class="competence-badge">Répondre aux incidents et aux demandes d'évolution</span>
+            <span class="competence-badge">Gérer le patrimoine informatique</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Conclusion du <span>stage</span></h2>
+        <div class="divider"></div>
+        <div class="info-card">
+          <p>Ce stage m'a permis de travailler sur un projet réel, complexe et complet : la fiabilisation et l'amélioration de la nouvelle version Laravel de GESTAGE.</p>
+          <p>J'ai corrigé des bugs critiques, amélioré la sécurité, travaillé sur l'authentification, les rôles, l'API Sirene, le module Entreprises, le formulaire de stage et l'UX globale.</p>
+          <p>Cette expérience m'a permis de progresser en développement web, en organisation, en autonomie et en travail en mode projet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-bg">
+      <div class="container">
+        <h2 class="section-title">Liens et <span>détails</span></h2>
+        <div class="divider"></div>
+        <div class="links-panel">
+          <a class="btn btn-primary" href="https://github.com/fatima774" target="_blank" rel="noopener noreferrer">Profil GitHub</a>
+          <a class="btn btn-outline" href="https://github.com/ornech/gestage2" target="_blank" rel="noopener noreferrer">Dépôt GESTAGE</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="photo-modal proof-modal" id="preuves-gestage-git" aria-labelledby="preuves-gestage-git-title">
+    <div class="photo-modal-header">
+      <div>
+        <h2 id="preuves-gestage-git-title">Suivi du projet avec GitHub et GitKraken</h2>
+        <p>Issues, branches, commits et historique Git utilisés pour organiser le développement de GESTAGE.</p>
+      </div>
+      <form method="dialog">
+        <button class="modal-close" type="submit" aria-label="Fermer la galerie">×</button>
+      </form>
+    </div>
+
+    <div class="photo-gallery-grid proof-gallery-grid">
+      <figure>
+        <img src="images/gestage/preuves/github-issues-gestage.png" alt="Liste des issues GitHub du projet GESTAGE" loading="lazy" decoding="async" />
+        <figcaption>Issues GitHub utilisées pour suivre les tâches et corrections</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gestage/preuves/gitkraken-branches.png" alt="Historique GitKraken avec branches et commits du projet GESTAGE" loading="lazy" decoding="async" />
+        <figcaption>Branches, merges et commits dans GitKraken</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gestage/preuves/gitkraken-workflow-stages.png" alt="Historique GitKraken du module de gestion des stages" loading="lazy" decoding="async" />
+        <figcaption>Travail sur les vues, filtres et workflows liés aux stages</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gestage/preuves/gitkraken-commit-detail.png" alt="Détail d'un commit GitKraken sur les rôles et middlewares" loading="lazy" decoding="async" />
+        <figcaption>Détail d'un commit : rôles, middleware et protection des routes</figcaption>
+      </figure>
+    </div>
+  </dialog>
+
+  <footer>
+    <p>© 2025 Fatima Bougrin — Portfolio BTS SIO SLAM <span>✦</span></p>
+  </footer>
+
+</body>
+</html>

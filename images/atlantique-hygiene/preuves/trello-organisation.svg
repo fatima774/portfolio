@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Organisation Trello</title>
+  <desc id="desc">Tableau Trello organise par semaines pour le suivi du projet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c5cc8"/>
+      <stop offset="100%" stop-color="#cf6abb"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <rect x="22" y="24" width="372" height="332" rx="16" fill="#f7e79d"/>
+  <text x="44" y="72" fill="#253b5a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Aujourd'hui</text>
+  <rect x="42" y="102" width="332" height="72" rx="10" fill="#fff" stroke="#d2c37f"/>
+  <text x="62" y="146" fill="#34415f" font-family="Arial, sans-serif" font-size="20">ajout des photos au fond des bulles</text>
+  <rect x="42" y="190" width="332" height="72" rx="10" fill="#fff" stroke="#d2c37f"/>
+  <text x="62" y="232" fill="#34415f" font-family="Arial, sans-serif" font-size="20">ajout du bouton envoyer</text>
+  <rect x="430" y="24" width="420" height="448" rx="16" fill="#b8f0d6"/>
+  <text x="462" y="72" fill="#253b5a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Cette semaine</text>
+  <g fill="#fff" stroke="#9ccdb8">
+    <rect x="462" y="102" width="350" height="58" rx="10"/>
+    <rect x="462" y="174" width="350" height="58" rx="10"/>
+    <rect x="462" y="246" width="350" height="58" rx="10"/>
+    <rect x="462" y="318" width="350" height="58" rx="10"/>
+    <rect x="462" y="390" width="350" height="58" rx="10"/>
+  </g>
+  <g fill="#2da66f" font-family="Arial, sans-serif" font-size="22" font-weight="800">
+    <text x="482" y="140">✓</text>
+    <text x="482" y="212">✓</text>
+    <text x="482" y="284">✓</text>
+    <text x="482" y="356">✓</text>
+    <text x="482" y="428">✓</text>
+  </g>
+  <g fill="#65708d" font-family="Arial, sans-serif" font-size="18">
+    <text x="520" y="138">modification de page d'accueil</text>
+    <text x="520" y="210">ajout des services dans la page</text>
+    <text x="520" y="282">creation page a propos</text>
+    <text x="520" y="354">mentions legales et confidentialite</text>
+    <text x="520" y="426">liens des reseaux sociaux</text>
+  </g>
+</svg>

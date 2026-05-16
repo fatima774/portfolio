@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Formulaire de contact Atlantique Hygiene</title>
+  <desc id="desc">Capture stylisee du formulaire de contact integre au site.</desc>
+  <rect width="900" height="560" fill="#f2faf6"/>
+  <text x="450" y="82" text-anchor="middle" fill="#063f34" font-family="Arial, sans-serif" font-size="42" font-weight="800">Contactez-nous</text>
+  <text x="450" y="158" text-anchor="middle" fill="#063f34" font-family="Arial, sans-serif" font-size="24">Ton email :</text>
+  <rect x="318" y="182" width="264" height="34" rx="3" fill="#fff" stroke="#777"/>
+  <text x="330" y="206" fill="#111" font-family="Arial, sans-serif" font-size="21">fatimabougrin146@gmail.com</text>
+  <text x="450" y="292" text-anchor="middle" fill="#063f34" font-family="Arial, sans-serif" font-size="24">Ton message :</text>
+  <rect x="318" y="318" width="264" height="118" rx="3" fill="#fff" stroke="#777"/>
+  <text x="330" y="345" fill="#111" font-family="Arial, sans-serif" font-size="21">test</text>
+  <rect x="400" y="486" width="100" height="36" rx="4" fill="#f7f7f7" stroke="#777"/>
+  <text x="450" y="511" text-anchor="middle" fill="#111" font-family="Arial, sans-serif" font-size="20">Envoyer</text>
+</svg>
